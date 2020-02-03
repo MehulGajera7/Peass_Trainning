@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: Arial;
+		}
+		nav
+		{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100px;
+			padding: : 10px 90px;
+			box-sizing: border-box;
+			background: rgb(0,0,0,0.5);
+		}
+		nav .logo
+		{
+			margin-top: 8px;
+			margin-left: 
+			padding: 22px 20px;
+			height: 80px;
+			float: left;
+		}
+		nav ul
+		{
+			list-style: none;
+			float: right;
+			margin: 0;
+			padding: 0;
+			display: flex; 
+		}
+		nav ul li a
+		{
+			line-height: 80px;
+			color: #fff;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		.banner a img
+		{
+			position: static;
+			width: 100%;
+			height: 600px;
+		}
+		.slider_text
+		{
+			position: absolute;
+			margin-top: 100px;
+			font-size: 50px; 
+			text-transform: uppercase;
+			color: #fff;
+		}
+		.slider_text h1
+		{
+			font-family: <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">;
+			font-size: 10px;
+
+		}
+		button
+		{
+			position: absolute;
+			margin-top: 450px;
+			margin-left: 550px;
+			background: #FF0000;
+			border-color: #FF0000;
+			color: #fff;
+			font-size: 10px;
+			padding-left: 10px;
+			padding-right: 10px;
+			height: 30px;
+		}
+		.ftr
+		{
+			background-color: #10153b;
+			height: 210px;
+			width: 100%
+		}
+		.location h1
+		{
+			margin-left: 200px;
+			margin-top: 7%;
+			color: #fff;
+			font-size: 15px;
+			position: absolute;
+		}
+		.location p
+		{
+			margin-top: 9%;
+			margin-left: 190px;
+			position: absolute;
+			color: #fff;
+			font-size: 12px;
+		}
+		.social h1
+		{
+			margin-left: 540px;
+			margin-top: 7%;
+			color: #fff;
+			font-size: 15px;
+			position: absolute;
+		}
+		.footer-social-icons
+		{
+			position: absolute;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+		.footer-social-icons ul
+		{
+			margin-top: 9%;
+			margin-left: 0;
+			padding: 0px;
+			text-align: center;	
+		}
+		.footer-social-icons ul li
+		{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background: #10153b;
+		}
+		.footer-social-icons ul li a
+		{
+			color: #fff;
+			font-size: 15px;
+		}
+		.footer-social-icons ul li a i
+		{
+			line-height: 20px;
+		}
+		.footer-social-icons ul li:hover
+		{
+			background: red; 
+		}
+		.about
+		{
+			position: absolute;
+		}	
+		.about h1
+		{
+			margin-left: 960px;
+			margin-top: 7%;
+			font-size: 15px;
+			color: #fff;
+		}
+		.about p
+		{
+			margin-left: 940px;
+			font-size: 12px;
+			color: #fff;
+		}
+		.sftr
+		{
+			background-color: #0f1330;
+			height: 70px;
+			width: 100%
+		}
+		.rights
+		{
+			margin-left: 510px;
+			position: absolute;
+			font-size: 10px;
+			color: #fff;
+		}
+		*
+		{
+	  		box-sizing: border-box;
+		}
+		.column 
+		{
+			position: relative;
+	  		float: left;
+	  		width: 25%;
+	  		padding: 0px;
+		}
+		.row::after {
+	  		content: "";
+	  		clear: both;
+	  		display: table;
+		}
+		.par p
+		{
+			margin-top: 60px;
+		}
+		.par button
+		{
+			position: static;
+			margin-top: 0%;
+			margin-bottom: 30px;
+		}
+		.content1 .column 
+		{
+			margin-top: 30px;
+	  		float: left;
+	  		width: 33.33%;
+	  		padding: 10px;
+	  		height: 190px; /* Should be removed. Only for demonstration */
+		}
+
+	/* Clear floats after the columns */
+		.content1 .row:after 
+		{
+	  		content: "";
+	  		display: table;
+	  		clear: both;
+		}
+	</style>
+</head>
+<body>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	<header>
+	<!----Header Start From Here---->
+        <div class="wrap">
+        	<nav>
+        		<div class="logo">
+        			<a href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+        			<ul>
+        				<li><a href="">FEAUTERS</a></li>
+        				<li><a href="">WORKS</a></li>
+        				<li><a href="">OUR TEAM</a></li>
+        				<li><a href="">TESTIMONIALS</a></li>
+        				<li><a href="">DOWNLOAD</a></li>
+        			</ul>
+        	</nav>
+        	<div class="slider_text">
+		<h3><center>your favourite one page
+		multi purpose template</center></h3>
+		<h1><center>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</center></h1>
+	</div>
+	<button><center>FIND OUT MORE</center></button>
+        </div>
+        <div class="banner">
+            <a href="index.html">
+                <img src="images/banner.jpg" alt="">
+            </a>
+        </div>
+	</header>
+
+<!----content Start From Here--->	
+	<div class="content1">
+		<div class="row">
+  <div class="column" style="">
+    <h2><center>EASILY CUSTOMISED</center></h2>
+    <p><center>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</center></p>
+  </div>
+  <div class="column" style="">
+    <h2><center>RESPONSIVE READY</center></h2>
+    <p><center>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </center></p>
+  </div>
+  <div class="column" style="">
+    <h2><center>MODERN DESIGN</center></center></h2>
+    <p><center> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,</center></p>
+  </div>
+</div>
+	</div>
+
+<!---Content2------>
+
+<div class="content1">
+		<div class="row">
+  <div class="column" style="">
+    <h2><center>CLEAN CODE</center></h2>
+    <p><center>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</center></p>
+  </div>
+  <div class="column" style="">
+    <h2><center>READY TO SHIP</center></h2>
+    <p><center>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </center></p>
+  </div>
+  <div class="column" style="">
+    <h2><center>DOWNLOAD FOR FREE</center></center></h2>
+    <p><center> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,</center></p>
+  </div>
+</div>
+	</div>	
+
+<!---images Start Ffrom Here---->	
+	<div class="row">
+  <div class="column">
+    <img src="images/work-1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/work-2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/work-3.jpg" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/work-4.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="images/work-5.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/work-6.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/work-7.jpg" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/work-8.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+<!----Download Button and content Part--->
+<div class="par">
+	<p><center>Are You Raedy to Start? Download Now Free!</center><br>
+	<center>FUSCE DAPIBUS, TELLUS AC CURSUS COMMODO</center></p>
+	<button><center>DOWNLOAD FOR FREE</center></button>
+</div>
+	<!--<form action="" method="post">
+		No1=<input type="text" name="n1"><br>
+		No2=<input type="text" name="n2"><br>
+		<input type="submit" name="submit">
+	</form>--->
+
+	<!---Fotter Start From Here--->
+	<div class="location">
+		<h1>Location</h1>
+		<p>3481 Melrose Place <br>Beverty Hills, CA 90210</p>
+	</div>
+	<div class="social">
+		<h1>SHARE WITH LOVE</h1>
+	</div>
+	<div class="footer-social-icons">
+	<ul>
+		<li><a href="#" target="blank"><i class="fa fa-facebook"></i></a></li>
+		<li><a href="#" target="blank"><i class="fa fa-twitter"></i></a></li>
+		<li><a href="#" target="blank"><i class="fa fa-linkedin"></i></a></li>
+		<li><a href="#" target="blank"><i class="fa fa-google-plus"></i></a></li>
+	</ul>
+</div>
+<div class="about">
+		<h1>ABOUT ACTIVEBOX</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit sed do eiusmod tempor incididunt.</p>
+</div>
+	<div class="ftr">
+	</div>	
+		
+	<div class="rights">
+		<p><center>Copyright 2015 ActiveBox.All Rights Reserved</center></p>
+		<p><center>Made with   by kamal Chaneman</center></p>
+	</div>
+
+	<div class="sftr">
+	</div>
+</body>
+</html>
