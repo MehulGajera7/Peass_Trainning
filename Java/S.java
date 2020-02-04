@@ -1,9 +1,14 @@
 class Gen<t>
 {
-	t a;
-	void show()
+	t a,b;
+	void set(t a,t b)
 	{
-		System.out.println("Your a value is ="+a);
+		this.a=a;
+		this.b=b;
+	}
+	t show()
+	{
+		return a+b;
 	}
 }
 class S
@@ -11,7 +16,7 @@ class S
 	public static void main(String args[])
 	{
 		Gen<Integer> s1=new Gen<Integer>();
-		s1.a=10;
-		s1.show();
+		s1.set(10,20);
+		System.out.println("Your Sum is ="+s1.show());
 	}
 }
